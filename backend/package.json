@@ -1,0 +1,22 @@
+{
+  "name": "soldados-de-elias-backend",
+  "version": "1.0.0",
+  "description": "Soldados de Elias - Banco de Mensagens (Backend)",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^12.11.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.1",
+    "express-session": "^1.18.1",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "uuid": "^11.0.3",
+    "xlsx": "^0.18.5"
+  }
+}
