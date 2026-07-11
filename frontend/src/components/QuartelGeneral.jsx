@@ -82,7 +82,7 @@ export default function QuartelGeneral({ user }) {
     if (selecionadas.size === 0) return;
     setExcluindo(true);
     try {
-      await deletarMensagens({ ids: Array.from(selecionadas) });
+      await deletarMensagens(Array.from(selecionadas));
       setMensagens((prev) => prev.filter((m) => !selecionadas.has(m.id)));
       setSelecionadas(new Set());
       toast.success(`${selecionadas.size} mensagens excluídas`);
