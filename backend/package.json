@@ -4,6 +4,7 @@
   "description": "Soldados de Elias - Banco de Mensagens (Backend)",
   "main": "src/index.js",
   "scripts": {
+    "build": "cd ../frontend && npm install && npm run build",
     "start": "node src/index.js",
     "dev": "node --watch src/index.js"
   },
